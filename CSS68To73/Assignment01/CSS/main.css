@@ -1,0 +1,37 @@
+h1 {
+  width: 120px;
+  background-color: #ff5722;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  position: relative;
+}
+h1::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  background-color: #ff5722;
+  z-index: -1;
+  transform: rotate(5deg) skew(30deg);
+  -webkit-transform: rotate(5deg) skew(30deg);
+  -moz-transform: rotate(5deg) skew(30deg);
+  -ms-transform: rotate(5deg) skew(30deg);
+  -o-transform: rotate(5deg) skew(30deg);
+}
+h1::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  background-color: #ff5722;
+  z-index: -1;
+  transform: rotate(-5deg) skew(-30deg);
+  -webkit-transform: rotate(-5deg) skew(-30deg);
+  -moz-transform: rotate(-5deg) skew(-30deg);
+  -ms-transform: rotate(-5deg) skew(-30deg);
+  -o-transform: rotate(-5deg) skew(-30deg);
+}

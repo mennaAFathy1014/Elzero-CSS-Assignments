@@ -1,0 +1,57 @@
+div {
+  width: 200px;
+  height: 200px;
+  color: white;
+
+  margin: 200px auto;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+}
+div::after {
+  content: "Front";
+  width: 100%;
+  height: 100%;
+  background-color: #fa3664;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotatex(0deg);
+  -webkit-transform: rotatex(0deg);
+  -moz-transform: rotatex(0deg);
+  -ms-transform: rotatex(0deg);
+  -o-transform: rotatex(0deg);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+div::before {
+  content: "Back";
+  width: 100%;
+  height: 100%;
+  background-color: #1692fc;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotatex(-180deg);
+  -webkit-transform: rotatex(-180deg);
+  -moz-transform: rotatex(-180deg);
+  -ms-transform: rotatex(-180deg);
+  -o-transform: rotatex(-180deg);
+}
+div:hover {
+  transform: rotatex(180deg);
+  -webkit-transform: rotatex(180deg);
+  -moz-transform: rotatex(180deg);
+  -ms-transform: rotatex(180deg);
+  -o-transform: rotatex(180deg);
+}
+/*#1692FC*/

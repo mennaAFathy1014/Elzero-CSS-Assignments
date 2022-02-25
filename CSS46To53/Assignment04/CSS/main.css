@@ -1,0 +1,29 @@
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+.parent div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: calc(75% / 3);
+  background-color: #009688;
+  color: white;
+}
+.one {
+  align-self: flex-end;
+}
+.two {
+  align-self: flex-start;
+  width: 50%;
+}
+.three {
+  align-self: flex-end;
+}

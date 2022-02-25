@@ -1,0 +1,21 @@
+div.one,
+div.two,
+div.three {
+  background-color: rgb(202, 203, 204);
+  display: block;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+.one .child {
+  border-left: 5px solid #e91e63;
+  padding: 10px;
+}
+.two {
+  visibility: hidden;
+  padding: 10px;
+}
+.three .child {
+  border-left: 5px solid #009688;
+  padding: 10px;
+}

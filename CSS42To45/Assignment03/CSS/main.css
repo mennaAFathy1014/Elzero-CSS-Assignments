@@ -1,0 +1,13 @@
+/*before*/
+/* :root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+} */
+
+div {
+  width: 400px;
+  padding: var(--mainPadding, 20px);
+  border: 2px solid var(--mainColor, black);
+  color: var(--mainColor, red);
+  margin: 20px auto;
+}

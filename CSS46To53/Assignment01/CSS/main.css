@@ -1,0 +1,21 @@
+div {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin: 20px auto;
+  /*font styling*/
+  font-family: sans-serif;
+  font-size: 80px;
+  color: #ff5722;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  /*border radius and shadow*/
+  border-radius: 50%;
+  background-color: #eeeeee;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 20px 0px #ff5722, -20px 0px #03a9f4;
+}

@@ -1,0 +1,54 @@
+div {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+div::after {
+  content: "";
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  border: 10px solid #e91e63;
+  border-color: #e91e63 #e91e63 #e91e63 #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+div::before {
+  content: "";
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  border: 10px solid #e91e63;
+  border-color: #2196f3 #fff #2196f3 #2196f3;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

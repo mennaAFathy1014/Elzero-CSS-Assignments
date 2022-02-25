@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+.htmlli,
+.cssli,
+.jsli {
+  list-style-type: none;
+  padding: 15px;
+  width: 400px;
+  background-color: #eeeeee;
+  margin: 40px auto;
+}
+.js li,
+.css li,
+.html li {
+  margin: 10px 25px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.css li {
+  list-style-type: upper-roman;
+}
+.js li {
+  list-style-position: inside;
+  list-style-type: circle;
+  padding-left: 10px;
+  margin-left: 0;
+}
+.js,
+.css,
+.html {
+  padding-left: 0;
+  margin: 10px auto;
+}
+.js {
+  margin: 0 auto;
+}

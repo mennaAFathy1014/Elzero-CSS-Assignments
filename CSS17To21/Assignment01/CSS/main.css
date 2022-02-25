@@ -1,0 +1,12 @@
+div {
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 red, 1.5px 1.5px 0 blue, 2px 2px 0 blueviolet;
+  background-color: rgb(216, 216, 216);
+}
+.one {
+  width: 70%;
+}

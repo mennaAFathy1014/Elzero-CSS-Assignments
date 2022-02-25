@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+:root {
+  --main-color: #ddd;
+  --main-width: 900px;
+  --main-height: 600px;
+}
+.page {
+  width: var(--main-width);
+  height: var(--main-height);
+  padding: 20px;
+  background-color: #eee;
+}
+.page div {
+  padding: 10px;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.header .logo,
+.header .links {
+  background-color: var(--main-color);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(var(--main-width) / 8);
+  background-color: var(--main-color);
+}
+.links {
+  width: calc(var(--main-width) / 1.3);
+  list-style: none;
+  background-color: var(--main-color);
+  margin: 0;
+  display: flex;
+  justify-content: end;
+}
+.links li {
+  display: inline-flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.main-area {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.content,
+.sidebar {
+  width: calc(var(--main-width) / 2.2);
+  height: calc(var(--main-height) / 1.4);
+  background-color: var(--main-color);
+}
+.footer {
+  width: calc(var(--main-width));
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: var(--main-color);
+}

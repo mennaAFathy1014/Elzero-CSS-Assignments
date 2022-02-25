@@ -1,0 +1,18 @@
+/* root element */
+html {
+  font-size: 20px;
+}
+div {
+  text-align: center;
+  padding: 10px;
+  /* font-size: 5vw; */
+}
+.one {
+  font-size: 2.5rem;
+}
+.two {
+  font-size: 2rem;
+}
+.three {
+  font-size: 1.5rem;
+}
