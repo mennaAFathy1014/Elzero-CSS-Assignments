@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 360px;
+  height: 40px;
+  margin: 50px;
+  position: relative;
+  background-color: #dddddd;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  border: 30px solid;
+  left: 50%;
+  top: 50%;
+  border-color: #dddddd;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.top::after {
+  transform: translate(-50%, -160%);
+  -webkit-transform: translate(-50%, -160%);
+  -moz-transform: translate(-50%, -160%);
+  -ms-transform: translate(-50%, -160%);
+  -o-transform: translate(-50%, -160%);
+  border-color: transparent transparent #dddddd transparent;
+}
+
+.right::after {
+  transform: translate(330%, -50%);
+  -webkit-transform: translate(330%, -50%);
+  -moz-transform: translate(330%, -50%);
+  -ms-transform: translate(330%, -50%);
+  -o-transform: translate(330%, -50%);
+  border-color: transparent transparent transparent #dddddd;
+}
+.bottom::after {
+  border-color: #dddddd transparent transparent transparent;
+  transform: translate(-50%, 60%);
+  -webkit-transform: translate(-50%, 60%);
+  -moz-transform: translate(-50%, 60%);
+  -ms-transform: translate(-50%, 60%);
+  -o-transform: translate(-50%, 60%);
+}
+.left::after {
+  border-color: transparent #dddddd transparent transparent;
+  transform: translate(-430%, -50%);
+  -webkit-transform: translate(-430%, -50%);
+  -moz-transform: translate(-430%, -50%);
+  -ms-transform: translate(-430%, -50%);
+  -o-transform: translate(-430%, -50%);
+}
